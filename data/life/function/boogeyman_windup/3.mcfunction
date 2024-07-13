@@ -1,0 +1,1 @@
+function life:boogeyman_windup {num:3,pitch:1.8}

@@ -1,0 +1,2 @@
+tellraw @a "Reloaded data pack."
+#tellraw @a[tag=op] [{"text":"","color":"white"},"If you want to run setup, click ",{"text":"here","color":"blue","clickEvent":{"action":"suggest_command","value":"/function life:setup"}},". "]
