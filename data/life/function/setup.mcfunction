@@ -1,12 +1,3 @@
-scoreboard objectives add death deathCount
-scoreboard objectives add kill playerKillCount
-
-function life:register_life {color:"red"}
-function life:register_life {color:"yellow"}
-function life:register_life {color:"green"}
-team add spectators
-team modify spectators color gray
-
 execute as @a run function life:reset
 
 #tellraw @a [{"text":"","color":"white"},"The datapack set-up. When you want to choose a boogeyman, execute ",{"text":"this command","color":"blue","clickEvent":{"action":"suggest_command","value":"/function life:choose_boogeyman"}},". "]

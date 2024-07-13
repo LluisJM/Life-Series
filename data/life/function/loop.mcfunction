@@ -33,3 +33,5 @@ execute if score #count count = #b_count count run execute as @a[tag=boogeyman] 
 
 #execute as @e[type=armor_stand,tag=c_tnt] at @s run summon tnt ~ ~ ~ {Passengers:[{id:tnt,Passengers:[{id:tnt,Passengers:[{id:tnt,Passengers:[{id:tnt,Passengers:[{id:tnt,Passengers:[{id:tnt,Passengers:[{id:tnt,Passengers:[{id:tnt,Passengers:[{id:tnt,Passengers:[{id:tnt}]}]}]}]}]}]}]}]}]}]}
 #kill @e[type=armor_stand,tag=c_tnt]
+
+schedule function life:loop 1t
