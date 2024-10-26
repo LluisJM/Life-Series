@@ -1,6 +1,6 @@
-execute as @a run function life:reset
+execute as @a run function lsr:reset
 
-#tellraw @a [{"text":"","color":"white"},"The datapack set-up. When you want to choose a boogeyman, execute ",{"text":"this command","color":"blue","clickEvent":{"action":"suggest_command","value":"/function life:choose_boogeyman"}},". "]
+#tellraw @a [{"text":"","color":"white"},"The datapack set-up. When you want to choose a boogeyman, execute ",{"text":"this command","color":"blue","clickEvent":{"action":"suggest_command","value":"/function lsr:choose_boogeyman"}},". "]
 
 recipe take @a minecraft:tnt
 recipe take @a minecraft:name_tag
