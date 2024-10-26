@@ -1,1 +1,0 @@
-function lsr:boogeyman_windup {num:5,pitch:1.5}
