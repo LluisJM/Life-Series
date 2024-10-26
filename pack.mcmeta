@@ -1,6 +1,7 @@
 {
     "pack": {
         "description": "Original concept by Grian, data pack by Lluís.",
-        "pack_format": 48
+        "pack_format": 57,
+        "supported_formats": [18, 57]
     }
 }
