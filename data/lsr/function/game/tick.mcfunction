@@ -22,14 +22,18 @@ execute as @a[scores={lsr.kill=1..},tag=lsr.boogeyman] run effect give @s minecr
 scoreboard players reset @a lsr.death
 scoreboard players reset @a lsr.kill
 
-scoreboard objectives add count dummy
-scoreboard players reset #count count
-execute as @a[team=!lsr.red,team=!lsr.spectators] run scoreboard players add #count count 1
-scoreboard players reset #b_count count
-execute as @a[tag=lsr.boogeyman] run scoreboard players add #b_count count 1
+scoreboard players reset $count.green_and_yellow lsr.io
+execute as @a[team=lsr.green] run scoreboard players add $count.green_and_yellow lsr.io 1
+execute as @a[team=lsr.yellow] run scoreboard players add $count.green_and_yellow lsr.io 1
+scoreboard players reset $count.boogeymen lsr.io
+execute as @a[tag=lsr.boogeyman] run scoreboard players add $count.boogeymen lsr.io 1
 
-execute if score #count count = #b_count count run tellraw @a[tag=lsr.boogeyman] {"text":"You were cured, as there is no one for you to lsr.kill.", "color":"gray"}
-execute if score #count count = #b_count count run execute as @a[tag=lsr.boogeyman] run function lsr:boogeyman/cure
+execute if score $count.green_and_yellow.max lsr.io >= $count.green_and_yellow lsr.io \
+    if score $count.green_and_yellow lsr.io = $count.boogeymen lsr.io \
+    run tellraw @a[tag=lsr.boogeyman] {"text":"You were cured, as there is no one for you to kill.", "color":"gray"}
+execute if score $count.green_and_yellow.max lsr.io >= $count.green_and_yellow lsr.io \
+    if score $count.green_and_yellow lsr.io = $count.boogeymen lsr.io \
+    run execute as @a[tag=lsr.boogeyman] run function lsr:boogeyman/cure
 
 #execute as @e[type=armor_stand,tag=c_tnt] at @s run summon tnt ~ ~ ~ {Passengers:[{id:tnt,Passengers:[{id:tnt,Passengers:[{id:tnt,Passengers:[{id:tnt,Passengers:[{id:tnt,Passengers:[{id:tnt,Passengers:[{id:tnt,Passengers:[{id:tnt,Passengers:[{id:tnt,Passengers:[{id:tnt}]}]}]}]}]}]}]}]}]}]}
 #lsr.kill @e[type=armor_stand,tag=c_tnt]
