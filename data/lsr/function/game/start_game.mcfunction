@@ -1,3 +1,7 @@
+# 
+# Starts the game. Resets player healt, lives and other scoreboards.
+# 
+
 execute as @a run function lsr:reset_player
 
 #tellraw @a [{"text":"","color":"white"},"The datapack set-up. When you want to choose a lsr.boogeyman, execute ",{"text":"this command","color":"blue","clickEvent":{"action":"suggest_command","value":"/function lsr:choose_lsr.boogeyman"}},". "]

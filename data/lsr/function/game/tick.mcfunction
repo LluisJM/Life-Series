@@ -1,3 +1,7 @@
+# 
+# Runs every tick during the game. 
+# 
+
 execute as @a[scores={lsr.death=1..},team=lsr.red] run title @s title {"text":"You were eliminated.","color":"gray"}
 execute as @a[scores={lsr.death=1..},team=lsr.red] run team join lsr.spectators @s
 execute as @a[scores={lsr.death=1..},team=lsr.spectators] run gamemode spectator @s

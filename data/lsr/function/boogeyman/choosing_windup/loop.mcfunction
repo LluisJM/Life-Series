@@ -1,4 +1,7 @@
-#todo Add pitch to the sound (minecraft:ui.button.click)
+# 
+# This function runs during the windup when the boogeyman is chosen (each time a number shows)
+# 
+#TODO: Add pitch to the sound (minecraft:ui.button.click)
 
 title @a title {\
     "color": "red", \

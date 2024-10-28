@@ -1,3 +1,7 @@
+# 
+# This function runs after the boogeyman windup. It chooses and shows a title to the boogeyman.
+# 
+
 tag @r[team=!lsr.red,team=!lsr.spectators,tag=!lsr.boogeyman] add lsr.boogeyman
 title @a times 0.2s 3s 1s
 title @a[tag=lsr.boogeyman] title {"text":"The lsr.boogeyman","color":"red"}
