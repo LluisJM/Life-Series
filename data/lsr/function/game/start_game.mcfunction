@@ -2,7 +2,8 @@
 # Starts the game. Resets player healt, lives and other scoreboards.
 # 
 
-execute as @a run function lsr:reset_player
+execute as @a[tag=lsr.player] run function lsr:reset_player
+execute as @a[tag=lsr.spectator] run function lsr:util/player_spectate
 
 #tellraw @a [{"text":"","color":"white"},"The datapack set-up. When you want to choose a lsr.boogeyman, execute ",{"text":"this command","color":"blue","clickEvent":{"action":"suggest_command","value":"/function lsr:choose_lsr.boogeyman"}},". "]
 
@@ -24,3 +25,5 @@ effect give @a minecraft:saturation 2 9 true
 scoreboard players reset $count.green_and_yellow.max lsr.io
 execute as @a[team=lsr.green] run scoreboard players add $count.green_and_yellow.max lsr.io 1
 execute as @a[team=lsr.yellow] run scoreboard players add $count.green_and_yellow.max lsr.io 1
+
+scoreboard players enable @a[tag=lsr.operator] lsr.start_session

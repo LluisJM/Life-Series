@@ -7,6 +7,13 @@
 
 scoreboard objectives add lsr.io dummy
 
+scoreboard objectives add lsr.play trigger
+scoreboard objectives add lsr.spectate trigger
+
+scoreboard objectives add lsr.start_game trigger
+scoreboard objectives add lsr.start_session trigger
+scoreboard objectives add lsr.choose_boogeyman trigger
+
 scoreboard objectives add lsr.death deathCount
 scoreboard objectives add lsr.kill playerKillCount
 
@@ -16,8 +23,7 @@ team add lsr.yellow
 team modify lsr.yellow color yellow
 team add lsr.green
 team modify lsr.green color green
-team add lsr.spectators
-team modify lsr.spectators color gray
+#team add lsr.spectators
+#team modify lsr.spectators color gray
 
-gamerule sendCommandFeedback false
 gamerule commandBlockOutput false

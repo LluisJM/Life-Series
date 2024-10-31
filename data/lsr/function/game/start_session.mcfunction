@@ -8,3 +8,5 @@ execute as @s[tag=lsr.boogeyman] at @s run playsound minecraft:block.note_block.
 team join lsr.red @a[tag=lsr.boogeyman]
 tag @a remove lsr.boogeyman
 function lsr:game/tick
+
+scoreboard players enable @a[tag=lsr.operator] lsr.choose_boogeyman

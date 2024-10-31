@@ -16,4 +16,4 @@ execute as @a at @s run playsound minecraft:ui.button.click master @s ~ ~1.5 ~ 1
 
 ## Call count again.
 execute unless score $lsr.boogeyman/choosing_windup lsr.io matches ..0 run schedule function lsr:boogeyman/choosing_windup/loop 1s
-execute if score $lsr.boogeyman/choosing_windup lsr.io matches ..0 run schedule function lsr:boogeyman/choose 1s
+execute if score $lsr.boogeyman/choosing_windup lsr.io matches ..0 run schedule function lsr:boogeyman/choosing_windup/start 1s
