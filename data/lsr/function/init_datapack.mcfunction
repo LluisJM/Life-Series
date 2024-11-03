@@ -11,11 +11,13 @@ scoreboard objectives add lsr.config dummy
 scoreboard objectives add lsr.play trigger
 scoreboard objectives add lsr.spectate trigger
 
+scoreboard objectives add lsr.menu trigger
 scoreboard objectives add lsr.settings trigger
 
 scoreboard objectives add lsr.start_game trigger
 scoreboard objectives add lsr.start_session trigger
 scoreboard objectives add lsr.choose_boogeyman trigger
+scoreboard objectives add lsr.end_game trigger
 
 scoreboard objectives add lsr.death deathCount
 scoreboard objectives add lsr.kill playerKillCount

@@ -46,10 +46,14 @@ The session must be manually started using the following command:
 ```
 /trigger lsr.start_session
 ```
+This will send a message to all the players saying that the session has started and it will punish Boogeymen that did not kill a player last session.
+
 The Boogeyman must be manually chosen using the following command:
 ```
 /trigger lsr.choose_boogeyman
 ```
+This command can be run multiple times for multiple boogeymen.
+
 The Boogeyman can be manually cured using the following command:
 ```
 /execute as <PLAYER NAME GOES HERE> run function lsr:boogeyman/cure

@@ -8,4 +8,4 @@ scoreboard players set $force_gamemodes lsr.config 1
 scoreboard players set $apply_kill_buffs.red lsr.config 1
 scoreboard players set $apply_kill_buffs.boogeyman lsr.config 1
 
-function lsr:settings/pages/generic
+function lsr:menu/settings
