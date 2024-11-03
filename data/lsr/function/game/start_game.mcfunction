@@ -5,6 +5,9 @@
 execute as @a[tag=lsr.player] run function lsr:reset_player
 execute as @a[tag=lsr.spectator] run function lsr:util/player_spectate
 
+scoreboard players reset * lsr.play
+scoreboard players reset * lsr.spectate
+
 #tellraw @a [{"text":"","color":"white"},"The datapack set-up. When you want to choose a lsr.boogeyman, execute ",{"text":"this command","color":"blue","clickEvent":{"action":"suggest_command","value":"/function lsr:choose_lsr.boogeyman"}},". "]
 
 recipe take @a minecraft:tnt
