@@ -4,7 +4,8 @@
 
 function lsr:tick/handle_lives
 function lsr:tick/handle_boogeymen
-function lsr:tick/apply_kill_buff
+execute if score $apply_kill_buffs.boogeyman lsr.config matches 1 run function lsr:tick/apply_kill_buff/boogeyman
+execute if score $apply_kill_buffs.red lsr.config matches 1 run function lsr:tick/apply_kill_buff/red
 
 scoreboard players reset @a lsr.death
 scoreboard players reset @a lsr.kill

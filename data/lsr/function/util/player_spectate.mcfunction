@@ -3,4 +3,5 @@
 # 
 
 team leave @s
+tag @s add lsr.spectator
 gamemode spectator @s
