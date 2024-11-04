@@ -32,5 +32,6 @@ team modify lsr.green color green
 #team modify lsr.spectators color gray
 
 gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
 
 execute unless score $config_loaded lsr.config matches 1 run function lsr:settings/reset_game_config
