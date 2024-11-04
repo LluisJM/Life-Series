@@ -3,11 +3,19 @@
   "category": "redstone",
   "key": {
     "#": [
-      "minecraft:sand", 
-      "minecraft:red_sand"
+      {
+        "item": "minecraft:sand"
+      },
+      {
+        "item": "minecraft:red_sand"
+      }
     ],
-    "X": "minecraft:gunpowder",
-    "A": "minecraft:paper"
+    "X": {
+      "item": "minecraft:gunpowder"
+    },
+    "A": {
+      "item": "minecraft:paper"
+    }
   },
   "pattern": [
     "A#A",

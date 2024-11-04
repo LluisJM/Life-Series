@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "minecraft:string",
-    "minecraft:paper"
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:paper"
+    }
   ],
   "result": {
     "count": 1,
