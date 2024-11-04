@@ -1,5 +1,5 @@
 # 
-# Makes sure there is a large separation in the chat.
+# Prints an empty line.
 # 
 
-tellraw @s "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+tellraw @s " "

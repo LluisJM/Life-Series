@@ -2,7 +2,7 @@
 # Basic on join player config.
 # 
 
-function lsr:menu/print_separator
+function lsr:menu/print_long_separator
 
 tag @s remove lsr.player
 tag @s remove lsr.spectator

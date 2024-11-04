@@ -10,5 +10,6 @@ tag @a remove lsr.boogeyman
 function lsr:game/tick
 
 scoreboard players enable @a[tag=lsr.operator] lsr.choose_boogeyman
+scoreboard players enable @a[tag=lsr.operator] lsr.start_session
 scoreboard players set $game_state lsr.io 2
 execute as @a[tag=lsr.operator] run function lsr:menu/main_menu

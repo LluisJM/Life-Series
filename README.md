@@ -34,11 +34,26 @@ These explanations have been adapted from the [Life Series Wiki](https://the-lif
 - There are custom sounds for the Boogeyman being chosen. To avoid the use of a resource pack, these sounds are vanilla. 
 - The Boogeyman is automatically cured if he/she reaches his/her Last Life, or when there are no other green or yellow names.
 
-## Administrator/OP Commands
+## Commands and Settings
 
-This data pack requires of an administrator to run the following commands to trigger different events.
+When a player joins, as shown in the image, a menu opens in chat that allows them to choose between playing the game or spectating it.
 
-The data pack MUST be setup with the following command:
+![Player Menu](screenshots/player_menu.png)
+
+If you are an operator, you have to press the "Are you an operator?" button to get the corresponding permissions.
+
+This data pack requires of an administrator to run the following commands to trigger different events. This commands can be instead accessed from the Main Menu, which can be opened using the command `/trigger lsr.menu`.
+
+![Main Menu](screenshots/main_menu.png)
+
+You can configure the game by pressing the "Settings" button or running `/trigger lsr.settings`. This will pop up a menu with all available settings.
+
+![Settings Menu](screenshots/settings_menu.png)
+
+<details>
+<summary>Operator Commands</summary>
+
+The game must be started with the following command:
 ```
 /trigger lsr.start_game
 ```
@@ -59,6 +74,8 @@ The Boogeyman can be manually cured using the following command:
 /execute as <PLAYER NAME GOES HERE> run function lsr:boogeyman/cure
 ```
 Functions are run automatically and are not supposed to be run by a player.
+
+</details>
 
 ## Bug report and feature suggestion
 
