@@ -3,4 +3,11 @@
 # 
 # @arg title
 
-$tellraw @s {"text": "\n   $(title)\n    --", "color": "gray"}
+$tellraw @s [ \
+    "\n   ", \
+    { \
+        "translate": "lsr.menu.$(title_id).title", \
+        "fallback": "$(title_text)", "color": "gray" \
+    }, \
+    "\n    --" \
+]

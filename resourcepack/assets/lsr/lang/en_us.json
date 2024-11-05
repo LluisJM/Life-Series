@@ -17,5 +17,19 @@
     "lsr.boogeyman.punish.description.p1": "You failed to kill a %1$s or %2$s name last session as the Boogeyman. As punishment, you have dropped to your %3$s. All alliances are severed and you are now hostile to all players. You may team with others on their Last Life if you wish.",
     "lsr.boogeyman.punish.description.p2": "green",
     "lsr.boogeyman.punish.description.p3": "yellow",
-    "lsr.boogeyman.punish.description.p4": "red"
+    "lsr.boogeyman.punish.description.p4": "red",
+    "lsr.menu.credits.title": "Credits",
+    "lsr.menu.pack.title": "Life Series Recreation",
+    "lsr.menu.$(title_id).title": "",
+    "lsr.menu.button.return_to_main_menu": "Return to Main Menu",
+    "lsr.menu.button.start_game": "Start game",
+    "lsr.menu.button.start_session": "Start session",
+    "lsr.menu.button.start_new_session": "Start new session",
+    "lsr.menu.button.choose_boogeyman": "Choose boogeyman",
+    "lsr.menu.button.credits": "Credits",
+    "lsr.menu.button.reset_all_settings": "Reset all settings to default",
+    "lsr.menu.button.play_game": "Play game",
+    "lsr.menu.button.spectate_game": "Spectate game",
+    "lsr.menu.button.operator_check": "Are you and operator?",
+    "lsr.menu.button.$(button_id)": ""
 }
