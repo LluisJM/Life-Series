@@ -1,0 +1,21 @@
+{
+    "lsr.player_config.playing": "You will be playing the game",
+    "lsr.player_config.spectating": "You will be spectating the game",
+    "lsr.boogeyman.choose.windup": "You are...",
+    "lsr.boogeyman.choose.the_boogeyman.title": "The Boogeyman",
+    "lsr.boogeyman.choose.the_boogeyman.description.p1": "You are the Boogeyman. You must by any means necessary lsr.kill a %1$s or %2$s name by direct action to be cured of the curse. If you fail, next session you will become a %3$s name. All loyalties and friendships are removed while you are the Boogeyman.",
+    "lsr.boogeyman.choose.the_boogeyman.description.p2": "green",
+    "lsr.boogeyman.choose.the_boogeyman.description.p3": "yellow",
+    "lsr.boogeyman.choose.the_boogeyman.description.p4": "red",
+    "lsr.boogeyman.choose.the_boogeyman.description.p5": "If you don't get automatically cured when you perform a kill, please notify an operator.",
+    "lsr.boogeyman.choose.not_the_boogeyman.title": "NOT the Boogeyman",
+    "lsr.boogeyman.choose.not_the_boogeyman.description.p1": "You are NOT the Boogeyman. The Boogeyman needs, by any means, lsr.kill a %1$s or %2$s name by direct action to be cured of the curse. All loyalties and friendships are removed while he/she is the Boogeyman. Beware of him/her!",
+    "lsr.boogeyman.choose.not_the_boogeyman.description.p2": "green",
+    "lsr.boogeyman.choose.not_the_boogeyman.description.p3": "yellow",
+    "lsr.boogeyman.cure": "You are cured",
+    "lsr.session.start": "Session has started. Good luck!",
+    "lsr.boogeyman.punish.description.p1": "You failed to kill a %1$s or %2$s name last session as the Boogeyman. As punishment, you have dropped to your %3$s. All alliances are severed and you are now hostile to all players. You may team with others on their Last Life if you wish.",
+    "lsr.boogeyman.punish.description.p2": "green",
+    "lsr.boogeyman.punish.description.p3": "yellow",
+    "lsr.boogeyman.punish.description.p4": "red"
+}
