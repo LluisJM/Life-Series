@@ -48,10 +48,10 @@ execute as @a[tag=!lsr.boogeyman] at @s run playsound minecraft:block.note_block
 execute as @a[tag=!lsr.boogeyman] at @s run playsound minecraft:block.note_block.xylophone ambient @s ~ ~ ~ 2 2
 execute as @a[tag=!lsr.boogeyman] at @s run playsound minecraft:block.note_block.xylophone ambient @s ~ ~ ~ 2 1.1
 #execute as @a[tag=!lsr.boogeyman] at @s run playsound minecraft:block.trial_spawner.ambient_ominous master @s ~ ~ ~ 1 2
-tellraw @a[tag=!lsr.boogeyman] [{"text":"","color":"gray"},"You are NOT the Boogeyman. The Boogeyman needs, by any means, lsr.kill a ",{"text":"green","color":"green"}," or ",{"text":"yellow","color":"yellow"}," name by direct action to be cured of the curse. All loyalties and friendships are removed while he/she is the Boogeyman. Beware of him/her!"]
+tellraw @a[tag=!lsr.boogeyman] [{"text":"","color":"gray"},"You are NOT the Boogeyman. The Boogeyman needs, by any means, lsr.kill a ",{"text":"green","color":"green"}," or ",{"text":"yellow","color":"yellow"}," name by direct action to be cured of the curse. All loyalties and friendships are removed while they are is the Boogeyman. Beware of them!"]
 tellraw @a[tag=!lsr.boogeyman] { \
     "translate": "lsr.boogeyman.choose.not_the_boogeyman.description.p1", \
-    "fallback": "You are NOT the Boogeyman. The Boogeyman needs, by any means, lsr.kill a %1$s or %2$s name by direct action to be cured of the curse. All loyalties and friendships are removed while he/she is the Boogeyman. Beware of him/her!", \
+    "fallback": "You are NOT the Boogeyman. The Boogeyman needs, by any means, lsr.kill a %1$s or %2$s name by direct action to be cured of the curse. All loyalties and friendships are removed while they are the Boogeyman. Beware of them!", \
     "color": "gray", \
     "with": [ \
         { \

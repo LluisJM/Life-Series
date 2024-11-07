@@ -20,7 +20,7 @@ These explanations have been adapted from the [Life Series Wiki](https://the-lif
 ### The Boogeyman
 
 - This is one or more players chosen at the beginning of each session.
-- The server does not reveal who the Boogeyman is except to the Boogeyman him/herself.
+- The server does not reveal who the Boogeyman is except to the Boogeyman themselves.
 - They become hostile and have to lsr.kill 1 green or yellow person to be cured.
 - If not cured by the end of the session, they get put down to 1 life for the next session.
 - The Boogeyman also gets a temporary buff to absorption, regeneration and fire resistance after performing the lsr.kill.
@@ -32,7 +32,7 @@ These explanations have been adapted from the [Life Series Wiki](https://the-lif
   - Name tags are now craftable with paper and string.
   - Saddles are now craftable with 3 leather.
 - There are custom sounds for the Boogeyman being chosen. To avoid the use of a resource pack, these sounds are vanilla. 
-- The Boogeyman is automatically cured if he/she reaches his/her Last Life, or when there are no other green or yellow names.
+- The Boogeyman is automatically cured if they reach their Last Life, or when there are no other green or yellow names.
 
 ## Commands and Settings
 
