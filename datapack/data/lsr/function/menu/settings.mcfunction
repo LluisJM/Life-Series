@@ -5,9 +5,9 @@
 function lsr:menu/print_long_separator
 function lsr:menu/print_title {title_id:"settings", title_text:"Settings"}
 
-function lsr:menu/print_setting {id:'force_gamemodes', page: 'settings'}
-function lsr:menu/print_setting {id:'apply_kill_buffs.red', page: 'settings'}
-function lsr:menu/print_setting {id:'apply_kill_buffs.boogeyman', page: 'settings'}
+function lsr:menu/print_setting {setting_name:"Force Gamemodes", setting_id:'force_gamemodes', page: 'settings'}
+function lsr:menu/print_setting {setting_name:"Apply kill buffs (red names)", setting_id:'apply_kill_buffs.red', page: 'settings'}
+function lsr:menu/print_setting {setting_name:"Apply kill buffs (Boogeymen)", setting_id:'apply_kill_buffs.boogeyman', page: 'settings'}
 
 function lsr:menu/print_separator
 
