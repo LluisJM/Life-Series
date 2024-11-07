@@ -1,8 +1,8 @@
 # Life Series Recreation
 
-![GitHub License](https://img.shields.io/github/license/LluisJM/Life-Series?style=for-the-badge&labelColor=111111&color=55FF55)
-![GitHub Tag](https://img.shields.io/github/v/tag/LluisJM/Life-Series?include_prereleases&style=for-the-badge&labelColor=111111&color=FFFF55)
-![GitHub last commit](https://img.shields.io/github/last-commit/LluisJM/Life-Series?style=for-the-badge&logo=github&labelColor=111111&color=FF5555)
+![GitHub License](https://img.shields.io/github/license/LluisJM/Life-Series?style=flat-square&labelColor=111111&color=55FF55)
+![GitHub Tag](https://img.shields.io/github/v/tag/LluisJM/Life-Series?include_prereleases&style=flat-square&labelColor=111111&color=FFFF55)
+![GitHub last commit](https://img.shields.io/github/last-commit/LluisJM/Life-Series?style=flat-square&logo=github&labelColor=111111&color=FF5555)
 
 This is my custom version of the 3rd Life series and the Last Life series by Grian. This is NOT a one-to-one recreation, but rather a fusion of both series. 
 
@@ -50,32 +50,14 @@ You can configure the game by pressing the "Settings" button or running `/trigge
 
 ![Settings Menu](screenshots/settings_menu.png)
 
-<details>
-<summary>Operator Commands</summary>
+Operators can also use commands to manage the data pack. This is a simple list of all the available operator commands:
 
-The game must be started with the following command:
-```
-/trigger lsr.start_game
-```
-The session must be manually started using the following command:
-```
-/trigger lsr.start_session
-```
-This will send a message to all the players saying that the session has started and it will punish Boogeymen that did not kill a player last session.
-
-The Boogeyman must be manually chosen using the following command:
-```
-/trigger lsr.choose_boogeyman
-```
-This command can be run multiple times for multiple boogeymen.
-
-The Boogeyman can be manually cured using the following command:
-```
-/execute as <PLAYER NAME GOES HERE> run function lsr:boogeyman/cure
-```
-Functions are run automatically and are not supposed to be run by a player.
-
-</details>
+| Command | Description |
+| ---- | ---- |
+| `/trigger lsr.start_game` | Starts the game. |
+| `/trigger lsr.start_session` | Starts the session. This will send a message to all the players saying that the session has started and it will punish Boogeymen that did not kill a player last session. |
+| `/trigger lsr.choose_boogeyman` | Chooses the Boogeyman. Can be run multiple times for multiple Boogeymen.
+| `/execute as <PLAYER NAME> run function lsr:boogeyman/cure` | Cures `<PLAYER NAME>` if they are a Boogeyman. |
 
 ## Bug report and feature suggestion
 
