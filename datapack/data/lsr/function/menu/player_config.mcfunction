@@ -13,5 +13,9 @@ function lsr:menu/print_title {title_id:"pack", title_text:"Life Series Recreati
 
 function lsr:menu/print_button {button_id:"play_game", button_text:"Play game", command:"trigger lsr.play"}
 function lsr:menu/print_button {button_id:"spectate_game", button_text:"Spectate game", command:"trigger lsr.spectate"}
-tellraw @s "\n"
+
+function lsr:menu/print_separator
+
 function lsr:menu/print_button {button_id:"operator_check", button_text:"Are you and operator?", command:"function lsr:util/check_operator_status"}
+
+function lsr:menu/print_separator
