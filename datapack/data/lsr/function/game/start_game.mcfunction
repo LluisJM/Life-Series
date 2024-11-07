@@ -2,6 +2,7 @@
 # Starts the game. Resets player healt, lives and other scoreboards.
 # 
 
+tag @a[tag=!lsr.spectator] add lsr.player
 execute as @a[tag=lsr.player] run function lsr:reset_player
 execute as @a[tag=lsr.spectator] run function lsr:util/player_spectate
 
