@@ -68,3 +68,7 @@ tellraw @a[tag=!lsr.boogeyman] { \
 }
 
 scoreboard players enable @a[tag=lsr.operator] lsr.choose_boogeyman
+
+scoreboard players reset $count.green_and_yellow.max lsr.io
+execute as @a[team=lsr.green] run scoreboard players add $count.green_and_yellow.max lsr.io 1
+execute as @a[team=lsr.yellow] run scoreboard players add $count.green_and_yellow.max lsr.io 1

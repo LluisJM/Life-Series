@@ -38,7 +38,3 @@ scoreboard players enable @a[tag=lsr.operator] lsr.choose_boogeyman
 scoreboard players enable @a[tag=lsr.operator] lsr.start_session
 scoreboard players set $game_state lsr.io 2
 execute as @a[tag=lsr.operator] run function lsr:menu/main_menu
-
-scoreboard players reset $count.green_and_yellow.max lsr.io
-execute as @a[team=lsr.green] run scoreboard players add $count.green_and_yellow.max lsr.io 1
-execute as @a[team=lsr.yellow] run scoreboard players add $count.green_and_yellow.max lsr.io 1
