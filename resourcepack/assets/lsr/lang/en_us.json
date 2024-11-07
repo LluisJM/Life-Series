@@ -32,11 +32,12 @@
     "lsr.menu.button.operator_check": "Are you and operator?",
     "lsr.menu.button.settings": "Settings",
     "lsr.setting.toggle.tooltip": "Click to toggle",
-    "lsr.misc.last_life.p1": "You have dropped to your %S. All alliances are severed and you are now hostile to all players. You may team with others on their Last Life if you wish.",
+    "lsr.misc.last_life.p1": "You have dropped to your %s. All alliances are severed and you are now hostile to all players. You may team with others on their Last Life if you wish.",
     "lsr.misc.last_life.p2": "Last Life",
     "lsr.util.check_operator_status.p1": "Confirmed operator status",
     "lsr.util.check_operator_status.p2": "Run %s to open the Main Menu",
     "lsr.setting.force_gamemodes": "Force Gamemodes",
     "lsr.setting.apply_kill_buffs.red": "Apply kill buffs (red names)",
-    "lsr.setting.apply_kill_buffs.boogeyman": "Apply kill buffs (Boogeymen)"
+    "lsr.setting.apply_kill_buffs.boogeyman": "Apply kill buffs (Boogeymen)",
+    "lsr.misc.eliminated.title":"You have been eliminated"
 }
