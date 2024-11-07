@@ -12,7 +12,7 @@ execute if score $game_state lsr.io matches 2 run function lsr:menu/print_button
 execute if score $game_state lsr.io matches 2 run function lsr:menu/print_button {button_id:"choose_boogeyman", button_text:"Choose boogeyman", command:"trigger lsr.choose_boogeyman"}
 execute unless score $game_state lsr.io matches 2 run function lsr:menu/print_separator
 
-function lsr:menu/print_button {button_text:"Settings", command:"trigger lsr.settings"}
+function lsr:menu/print_button {button_id: "settings", button_text:"Settings", command:"trigger lsr.settings"}
 
 function lsr:menu/print_separator
 
