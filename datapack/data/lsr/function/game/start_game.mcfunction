@@ -24,11 +24,6 @@ effect clear @a
 effect give @a minecraft:regeneration 2 9 true
 effect give @a minecraft:saturation 2 9 true
 
-
-scoreboard players reset $count.green_and_yellow.max lsr.io
-execute as @a[team=lsr.green] run scoreboard players add $count.green_and_yellow.max lsr.io 1
-execute as @a[team=lsr.yellow] run scoreboard players add $count.green_and_yellow.max lsr.io 1
-
 scoreboard players set $game_state lsr.io 1
 scoreboard players enable @a[tag=lsr.operator] lsr.start_session
 execute as @a[tag=lsr.operator] run function lsr:menu/main_menu
