@@ -1,8 +1,8 @@
 # Life Series Recreation
 
-![GitHub License](https://img.shields.io/github/license/LluisJM/Life-Series?style=flat-square&labelColor=111111&color=55FF55)
-![GitHub Tag](https://img.shields.io/github/v/tag/LluisJM/Life-Series?include_prereleases&style=flat-square&labelColor=111111&color=FFFF55)
-![GitHub last commit](https://img.shields.io/github/last-commit/LluisJM/Life-Series?style=flat-square&logo=github&labelColor=111111&color=FF5555)
+![GitHub License](https://img.shields.io/github/license/LluisJM/Life-Series?style=flat-square&labelColor=111111)
+![GitHub Tag](https://img.shields.io/github/v/tag/LluisJM/Life-Series?include_prereleases&style=flat-square&labelColor=111111&logo=github)
+![GitHub last commit](https://img.shields.io/badge/optional_resource_pack-yellow?style=flat-square&logo=minecraft)
 
 This is my custom version of the 3rd Life series and the Last Life series by Grian. This is NOT a one-to-one recreation, but rather a fusion of both series. 
 
