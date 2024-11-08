@@ -40,5 +40,5 @@
     "lsr.setting.apply_kill_buffs.red": "Apply kill buffs (red names)",
     "lsr.setting.apply_kill_buffs.boogeyman": "Apply kill buffs (Boogeymen)",
     "lsr.misc.eliminated.title": "You have been eliminated",
-    "lsr.boogeyman.cure.not_enough_players":"You have been cured, as there is no one for you to kill."
+    "lsr.boogeyman.cure.not_enough_players": "You have been cured, as there is no one for you to kill."
 }
