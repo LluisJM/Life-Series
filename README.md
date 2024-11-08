@@ -12,18 +12,18 @@ These explanations have been adapted from the [Life Series Wiki](https://the-lif
 
 ### The Life System
 
-- Each player starts with three lives. Their name is green and they cannot lsr.kill other players unless in self-defence.
+- Each player starts with three lives. Their name is green and they cannot kill other players unless in self-defence.
 - If a player dies, they lose a life. Their name becomes yellow, and the same rules apply.
 - When a player reaches their final life, their name becomes red, and they will become hostile to other players. All alliances are severed when you reach your Last Life.
-- Red names get a temporary buff to absorption, regeneration and fire resistance after performing a lsr.kill.
+- Red names get a temporary buff to absorption, regeneration and fire resistance after performing a kill.
 
 ### The Boogeyman
 
 - This is one or more players chosen at the beginning of each session.
 - The server does not reveal who the Boogeyman is except to the Boogeyman themselves.
-- They become hostile and have to lsr.kill 1 green or yellow person to be cured.
+- They become hostile and have to kill 1 green or yellow person to be cured.
 - If not cured by the end of the session, they get put down to 1 life for the next session.
-- The Boogeyman also gets a temporary buff to absorption, regeneration and fire resistance after performing the lsr.kill.
+- The Boogeyman also gets a temporary buff to absorption, regeneration and fire resistance after performing the kill.
 
 ## Features
 
@@ -31,7 +31,7 @@ These explanations have been adapted from the [Life Series Wiki](https://the-lif
   - TNT is now crafted with 4 paper and 1 gunpowder instead of 5 gunpowder.
   - Name tags are now craftable with paper and string.
   - Saddles are now craftable with 3 leather.
-- There are custom sounds for the Boogeyman being chosen. To avoid the use of a resource pack, these sounds are vanilla. 
+- There are sounds for the Boogeyman being chosen.
 - The Boogeyman is automatically cured if they reach their Last Life, or when there are no other green or yellow names.
 
 ## Commands and Settings
