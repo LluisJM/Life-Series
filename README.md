@@ -1,3 +1,5 @@
+![Banner](screenshots/thin_banner.png)
+
 # Life Series Recreation
 
 ![GitHub License](https://img.shields.io/github/license/LluisJM/Life-Series?style=flat-square&labelColor=111111)
