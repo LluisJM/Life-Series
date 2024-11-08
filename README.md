@@ -2,7 +2,7 @@
 
 ![GitHub License](https://img.shields.io/github/license/LluisJM/Life-Series?style=flat-square&labelColor=111111)
 ![GitHub Tag](https://img.shields.io/github/v/tag/LluisJM/Life-Series?include_prereleases&style=flat-square&labelColor=111111&logo=github)
-![GitHub last commit](https://img.shields.io/badge/optional_resource_pack-yellow?style=flat-square&logo=minecraft)
+![GitHub last commit](https://img.shields.io/badge/resource_pack-optional-yellow?style=flat-square&labelColor=111111)
 
 This is my custom version of the 3rd Life series and the Last Life series by Grian. This is NOT a one-to-one recreation, but rather a fusion of both series. 
 
@@ -59,6 +59,8 @@ Operators can also use commands to manage the data pack. This is a simple list o
 | `/trigger lsr.choose_boogeyman` | Chooses the Boogeyman. Can be run multiple times for multiple Boogeymen.
 | `/execute as <PLAYER NAME> run function lsr:boogeyman/cure` | Cures `<PLAYER NAME>` if they are a Boogeyman. |
 
-## Bug report and feature suggestion
+## Bug reports, feature suggestions, and 
 
 You can report bugs and suggest features in the [GitHub repository](https://github.com/LluisJM/Life-Series/issues).
+
+You can also help by translating the project in its corresponding [POEditor project](https://poeditor.com/projects/view?id=742894).
