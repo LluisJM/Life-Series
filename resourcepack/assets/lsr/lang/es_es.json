@@ -43,5 +43,6 @@
     "lsr.boogeyman.cure.not_enough_players": "Has sido curado/a, porque no quedan jugadores que puedas matar.",
     "lsr.menu.credits.developers.title": "Desarrolladores",
     "lsr.menu.credits.testers.title": "Probadores",
-    "lsr.menu.button.stop_game": "Detener el juego"
+    "lsr.menu.button.stop_game": "Detener el juego",
+    "lsr.menu.credits.translators.title": "Traductores"
 }
