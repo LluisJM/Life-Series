@@ -9,7 +9,7 @@ tag @s remove lsr.spectator
 scoreboard players enable @s lsr.play
 scoreboard players enable @s lsr.spectate
 
-function lsr:menu/print_title {title_id:"pack", title_text:"Life Series Recreation"}
+function lsr:menu/print_heading_1 {title_id:"pack", title_text:"Life Series Recreation"}
 
 function lsr:menu/print_button {button_id:"play_game", button_text:"Play game", command:"trigger lsr.play"}
 function lsr:menu/print_button {button_id:"spectate_game", button_text:"Spectate game", command:"trigger lsr.spectate"}

@@ -1,7 +1,6 @@
 # 
-# Prints a title
+# Prints a title, level 1.
 # 
-# @arg title
 
 $tellraw @s [ \
     "\n   ", \
