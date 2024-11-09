@@ -40,5 +40,7 @@
     "lsr.setting.apply_kill_buffs.red": "Aplica recompenses d'assassinat (noms vermells)",
     "lsr.setting.apply_kill_buffs.boogeyman": "Aplica recompenses d'assassinat (Boogeymen)",
     "lsr.misc.eliminated.title": "Has estat eliminat",
-    "lsr.boogeyman.cure.not_enough_players": "Has estat curat/da, ja que no hi ha ningú que puguis matar."
+    "lsr.boogeyman.cure.not_enough_players": "Has estat curat/da, ja que no hi ha ningú que puguis matar.",
+    "lsr.menu.credits.developers.title": "Desenvolupadors:",
+    "lsr.menu.credits.testers.title": "Provadors:"
 }
