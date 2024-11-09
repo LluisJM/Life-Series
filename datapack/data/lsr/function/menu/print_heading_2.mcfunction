@@ -2,4 +2,4 @@
 # Prints a title, level 2.
 # 
 
-$tellraw @s ["\n - ", {"translate": "$(title_id)", "fallback": "lsr.menu.$(title_text).title", "color": "gray"}," -"]
+$tellraw @s ["\n - ", {"translate": "lsr.menu.$(title_id).title", "fallback": "$(title_text)", "color": "gray"}," -"]
