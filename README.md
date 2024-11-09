@@ -31,8 +31,11 @@ These explanations have been adapted from the [Life Series Wiki](https://the-lif
 
 - Some crafting recipes have been changed or added:
   - TNT is now crafted with 4 paper and 1 gunpowder instead of 5 gunpowder.
+  ![TNT Recipe](screenshots/recipes/tnt.gif)
   - Name tags are now craftable with paper and string.
+  ![Name Tag Recipe](screenshots/recipes/name_tag.png)
   - Saddles are now craftable with 3 leather.
+  ![Saddle Recipe](screenshots/recipes/saddle.png)
 - There are sounds for the Boogeyman being chosen.
 - The Boogeyman is automatically cured if they reach their Last Life, or when there are no other green or yellow names.
 
