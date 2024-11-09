@@ -31,6 +31,7 @@
     "lsr.menu.button.spectate_game": "Spectate game",
     "lsr.menu.button.operator_check": "Are you and operator?",
     "lsr.menu.button.settings": "Settings",
+    "lsr.menu.button.stop_game": "Stop Game",
     "lsr.setting.toggle.tooltip": "Click to toggle",
     "lsr.misc.last_life.p1": "You have dropped to your %s. All alliances are severed and you are now hostile to all players. You may team with others on their Last Life if you wish.",
     "lsr.misc.last_life.p2": "Last Life",
