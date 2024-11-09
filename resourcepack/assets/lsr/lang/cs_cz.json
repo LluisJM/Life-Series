@@ -41,7 +41,7 @@
     "lsr.setting.apply_kill_buffs.boogeyman": "Povolit odměny za zabíjení (Bubák)",
     "lsr.misc.eliminated.title": "Byl jsi eliminován",
     "lsr.boogeyman.cure.not_enough_players": "Byl jsi vyléčen, jelikož už není nikdo koho můžeš zabít.",
-    "lsr.menu.credits.developers.title": "Vývojáři:",
-    "lsr.menu.credits.testers.title": "Testeři:",
+    "lsr.menu.credits.developers.title": "Vývojáři",
+    "lsr.menu.credits.testers.title": "Testeři",
     "lsr.menu.button.stop_game": "Zastavit Hru"
 }
