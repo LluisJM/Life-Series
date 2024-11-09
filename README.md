@@ -73,6 +73,6 @@ You can also help by translating the project in its corresponding [POEditor proj
 
 ## Credits
 
-Thanks to RonoCZ, manatedough and Ondranik for helping with play-testing the data pack.
+Thanks to RonoCZ, manatedough and Ondranik for helping with play-testing the data pack, and thank you, for translating to various languages, to gerritdebal (Dutch) and Noukum (French and Shakespearean English) and also manatedough (French and LOLCAT) and Ondranik (Czech and Pirate Speak)!
 
 Recipe images have been generated using [this website](https://crafting.thedestruc7i0n.ca/) by [TheDestruc7i0n](https://thedestruc7i0n.ca/).

@@ -43,5 +43,6 @@
     "lsr.misc.eliminated.title": "You have been eliminated",
     "lsr.boogeyman.cure.not_enough_players": "You have been cured, as there is no one for you to kill.",
     "lsr.menu.credits.developers.title": "Developers",
+    "lsr.menu.credits.translators.title": "Translators",
     "lsr.menu.credits.testers.title": "Testers"
 }
