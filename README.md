@@ -6,7 +6,7 @@
 ![GitHub Tag](https://img.shields.io/github/v/tag/LluisJM/Life-Series?include_prereleases&style=flat-square&labelColor=111111&logo=github)
 ![GitHub last commit](https://img.shields.io/badge/resource_pack-optional-yellow?style=flat-square&labelColor=111111)
 
-This is my custom version of the 3rd Life series and the Last Life series by Grian. This is NOT a one-to-one recreation, but rather a fusion of both series. 
+This is my custom version of the 3rd Life series and the Last Life series by Grian. This is NOT a one-to-one recreation, but rather a fusion of both series.
 
 ## Rules
 
@@ -31,15 +31,13 @@ These explanations have been adapted from the [Life Series Wiki](https://the-lif
 
 - Some crafting recipes have been changed or added:
   - TNT is now crafted with 4 paper and 1 gunpowder instead of 5 gunpowder.
-  ![TNT Recipe](screenshots/recipes/tnt.gif) [^1]
+  ![TNT Recipe](screenshots/recipes/tnt.gif)
   - Name tags are now craftable with paper and string.
-  ![Name Tag Recipe](screenshots/recipes/name_tag.png) [^1]
+  ![Name Tag Recipe](screenshots/recipes/name_tag.png)
   - Saddles are now craftable with 3 leather.
-  ![Saddle Recipe](screenshots/recipes/saddle.png) [^1]
+  ![Saddle Recipe](screenshots/recipes/saddle.png)
 - There are sounds for the Boogeyman being chosen.
 - The Boogeyman is automatically cured if they reach their Last Life, or when there are no other green or yellow names.
-
-[^1]: These images have been generated using [this website](https://crafting.thedestruc7i0n.ca/).
 
 ## Commands and Settings
 
@@ -66,8 +64,15 @@ Operators can also use commands to manage the data pack. This is a simple list o
 | `/trigger lsr.choose_boogeyman` | Chooses the Boogeyman. Can be run multiple times for multiple Boogeymen.
 | `/execute as <PLAYER NAME> run function lsr:boogeyman/cure` | Cures `<PLAYER NAME>` if they are a Boogeyman. |
 
-## Bug reports, feature suggestions, and 
+## Bug reports, feature suggestions, and languages
 
 You can report bugs and suggest features in the [GitHub repository](https://github.com/LluisJM/Life-Series/issues).
 
 You can also help by translating the project in its corresponding [POEditor project](https://poeditor.com/projects/view?id=742894).
+
+
+## Credits
+
+Thanks to RonoCZ, manatedough and Ondranik for helping with play-testing the data pack.
+
+Recipe images have been generated using [this website](https://crafting.thedestruc7i0n.ca/) by [TheDestruc7i0n](https://thedestruc7i0n.ca/).
