@@ -40,5 +40,7 @@
     "lsr.setting.apply_kill_buffs.red": "Aplicar recompensas de muerte (nombres rojos)",
     "lsr.setting.apply_kill_buffs.boogeyman": "Aplicar recompensas de muerte (Boogeymen)",
     "lsr.misc.eliminated.title": "Has sido eliminado/a",
-    "lsr.boogeyman.cure.not_enough_players": "Has sido curado/a, porque no quedan jugadores que puedas matar."
+    "lsr.boogeyman.cure.not_enough_players": "Has sido curado/a, porque no quedan jugadores que puedas matar.",
+    "lsr.menu.credits.developers.title": "Desarrolladores:",
+    "lsr.menu.credits.testers.title": "Probadores:"
 }
