@@ -43,5 +43,6 @@
     "lsr.boogeyman.cure.not_enough_players": "Byl jsi vyléčen, jelikož už není nikdo koho můžeš zabít.",
     "lsr.menu.credits.developers.title": "Vývojáři",
     "lsr.menu.credits.testers.title": "Testeři",
-    "lsr.menu.button.stop_game": "Zastavit Hru"
+    "lsr.menu.button.stop_game": "Zastavit Hru",
+    "lsr.menu.credits.translators.title": "Překladatelé"
 }
