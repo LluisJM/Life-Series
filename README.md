@@ -64,12 +64,24 @@ Operators can also use commands to manage the data pack. This is a simple list o
 | `/trigger lsr.choose_boogeyman` | Chooses the Boogeyman. Can be run multiple times for multiple Boogeymen.
 | `/execute as <PLAYER NAME> run function lsr:boogeyman/cure` | Cures `<PLAYER NAME>` if they are a Boogeyman. |
 
+## Translation support
+
+There are a total of 9 languages avaliable in LSR
+ - Catalan
+ - Czech
+ - Dutch
+ - English
+ - French
+ - Spanish
+ - LOLCAT
+ - Pirate Speak
+ - Shakespearean English
+
 ## Bug reports, feature suggestions, and languages
 
 You can report bugs and suggest features in the [GitHub repository](https://github.com/LluisJM/Life-Series/issues).
 
-You can also help by translating the project in its corresponding [POEditor project](https://poeditor.com/projects/view?id=742894).
-
+If you would like to help translating to a language that has not yet been implemented, DM me!
 
 ## Credits
 
