@@ -3,13 +3,5 @@
         "description": "Original concept by Grian, data pack by Lluís.",
         "pack_format": 57,
         "supported_formats": [18, 57]
-    },
-    "overlays": {
-        "entries": [
-            {
-                "directory": "pack_format_before_49",
-                "formats": [18, 49]
-            }
-        ]
     }
 }

@@ -17,7 +17,13 @@ recipe take @a minecraft:saddle
 recipe give @a minecraft:tnt
 recipe give @a minecraft:name_tag
 recipe give @a minecraft:saddle
-
+recipe take @a minecraft:format_48/tnt
+recipe take @a minecraft:format_48/name_tag
+recipe take @a minecraft:format_48/saddle
+recipe give @a minecraft:format_48/tnt
+recipe give @a minecraft:format_48/name_tag
+recipe give @a minecraft:format_48/saddle
+ 
 tag @a remove lsr.boogeyman
 
 time set 0t
