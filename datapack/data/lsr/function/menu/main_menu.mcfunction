@@ -9,8 +9,8 @@ function lsr:menu/print_heading_1 {title_id: "main_menu", title_text:"Main Menu"
 execute unless score $game_state lsr.io matches 1..2 run function lsr:menu/print_button {button_id:"start_game", button_text:"Start game", command:"trigger lsr.start_game"}
 execute if score $game_state lsr.io matches 1 run function lsr:menu/print_button {button_id:"start_session", button_text:"Start session", command:"trigger lsr.start_session"}
 execute if score $game_state lsr.io matches 2 run function lsr:menu/print_button {button_id:"start_new_session", button_text:"Start new session", command:"trigger lsr.start_session"}
-execute if score $game_state lsr.io matches 2 run function lsr:menu/print_button {button_id:"choose_boogeyman", button_text:"Choose boogeyman", command:"trigger lsr.choose_boogeyman"}
-execute unless score $game_state lsr.io matches 2 run function lsr:menu/print_separator
+execute if function lsr:util/are_there_boogeyman_candidates run function lsr:menu/print_button {button_id:"choose_boogeyman", button_text:"Choose boogeyman", command:"trigger lsr.choose_boogeyman"}
+execute unless function lsr:util/are_there_boogeyman_candidates run function lsr:menu/print_separator
 
 function lsr:menu/print_button {button_id: "settings", button_text:"Settings", command:"trigger lsr.settings"}
 
