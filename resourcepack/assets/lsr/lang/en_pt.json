@@ -43,5 +43,6 @@
     "lsr.boogeyman.cure.not_enough_players": "Ye've been cured, for there be no soul left to claim!",
     "lsr.menu.credits.developers.title": "Emperors",
     "lsr.menu.credits.testers.title": "Pirates",
-    "lsr.menu.button.stop_game": "Stop the Tide"
+    "lsr.menu.button.stop_game": "Stop the Tide",
+    "lsr.menu.credits.translators.title": "Code-Breakers"
 }
