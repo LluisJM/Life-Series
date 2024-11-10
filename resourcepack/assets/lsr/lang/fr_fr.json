@@ -43,5 +43,6 @@
     "lsr.boogeyman.cure.not_enough_players": "Vous avez été guéri de votre malédiction car il n'y a plus personne a tuer.",
     "lsr.menu.credits.developers.title": "Développeurs",
     "lsr.menu.credits.testers.title": "Testeurs",
-    "lsr.menu.button.stop_game": "Arreter le jeu"
+    "lsr.menu.button.stop_game": "Arreter le jeu",
+    "lsr.menu.credits.translators.title": "Traducteurs"
 }
