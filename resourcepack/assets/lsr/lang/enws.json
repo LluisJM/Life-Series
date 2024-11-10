@@ -43,5 +43,6 @@
     "lsr.boogeyman.cure.not_enough_players": "Thou art cured, for there is none left for thee to slay.",
     "lsr.menu.credits.developers.title": "Craftsmen",
     "lsr.menu.credits.testers.title": "Trialers",
-    "lsr.menu.button.stop_game": "Stop game"
+    "lsr.menu.button.stop_game": "Stop game",
+    "lsr.menu.credits.translators.title": "translatours"
 }
