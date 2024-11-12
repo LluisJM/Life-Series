@@ -80,9 +80,11 @@ There are a total of 9 languages available in LSR
  - English
  - French
  - Spanish
- - LOLCAT
+ - LOLCAT 
  - Pirate Speak
  - Shakespearean English
+
+ **Disclaimer:** LOLCAT contains references to foul language.
 
 ## Bug reports, feature suggestions, and languages
 
