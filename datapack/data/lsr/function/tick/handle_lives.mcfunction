@@ -25,3 +25,6 @@ execute as @a[scores={lsr.death=1..},team=lsr.yellow] run tellraw @s { \
 execute as @a[scores={lsr.death=1..},team=lsr.yellow] run team join lsr.red @s
 
 execute as @a[scores={lsr.death=1..},team=lsr.green] run team join lsr.yellow @s
+
+execute as @a[scores={lsr.death=1..},team=lsr.yellow] run scoreboard players remove $count.green_and_yellow.max lsr.io 1
+execute as @a[scores={lsr.death=1..},team=lsr.green] run scoreboard players remove $count.green_and_yellow.max lsr.io 1
