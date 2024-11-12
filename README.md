@@ -73,7 +73,7 @@ Operators can also use commands to manage the data pack. This is a simple list o
 
 ## Translation support
 
-There are a total of 9 languages avaliable in LSR
+There are a total of 9 languages available in LSR
  - Catalan
  - Czech
  - Dutch
