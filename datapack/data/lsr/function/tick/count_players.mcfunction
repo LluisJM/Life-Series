@@ -3,8 +3,7 @@
 # 
 
 scoreboard players reset $count.green_and_yellow lsr.io
-execute as @a[team=lsr.green] run scoreboard players add $count.green_and_yellow lsr.io 1
-execute as @a[team=lsr.yellow] run scoreboard players add $count.green_and_yellow lsr.io 1
+execute as @a[predicate=lsr:is_green_or_yellow] run scoreboard players add $count.green_and_yellow lsr.io 1
 scoreboard players reset $count.boogeymen lsr.io
 execute as @a[tag=lsr.boogeyman] run scoreboard players add $count.boogeymen lsr.io 1
 

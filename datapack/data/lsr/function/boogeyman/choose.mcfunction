@@ -2,7 +2,7 @@
 # This function runs after the boogeyman windup. It chooses and shows a title to the boogeyman.
 # 
 
-tag @r[team=!lsr.red,team=!,tag=!lsr.boogeyman] add lsr.boogeyman
+tag @r[predicate=lsr:is_green_or_yellow,tag=!lsr.boogeyman] add lsr.boogeyman
 title @a times 0.2s 3s 1s
 title @a[tag=lsr.boogeyman] title {\
     "translate": "lsr.boogeyman.choose.the_boogeyman.title", \
@@ -69,5 +69,4 @@ tellraw @a[tag=!lsr.boogeyman] { \
 scoreboard players enable @a[tag=lsr.operator] lsr.choose_boogeyman
 
 scoreboard players reset $count.green_and_yellow.max lsr.io
-execute as @a[team=lsr.green] run scoreboard players add $count.green_and_yellow.max lsr.io 1
-execute as @a[team=lsr.yellow] run scoreboard players add $count.green_and_yellow.max lsr.io 1
+execute as @a[predicate=lsr:is_green_or_yellow] run scoreboard players add $count.green_and_yellow.max lsr.io 1
