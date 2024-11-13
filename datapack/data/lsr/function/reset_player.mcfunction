@@ -3,5 +3,5 @@
 # 
 
 team join lsr.dark_green @s
-scoreboard players set @s lsr.lives 6
+function lsr:life/set_random
 gamemode survival @s
