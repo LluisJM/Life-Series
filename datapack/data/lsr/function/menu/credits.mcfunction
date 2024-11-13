@@ -23,3 +23,5 @@ function lsr:menu/print_label {text:"RonoCZ"}
 function lsr:menu/print_separator
 
 function lsr:menu/print_button {button_id:"return_to_main_menu", button_text:"Return to Main Menu", command: "trigger lsr.menu"}
+
+function lsr:menu/print_separator
