@@ -19,6 +19,7 @@ scoreboard objectives add lsr.start_session trigger
 scoreboard objectives add lsr.choose_boogeyman trigger
 scoreboard objectives add lsr.end_game trigger
 
+scoreboard objectives add lsr.lives dummy
 scoreboard objectives add lsr.death deathCount
 scoreboard objectives add lsr.kill playerKillCount
 
@@ -28,6 +29,8 @@ team add lsr.yellow
 team modify lsr.yellow color yellow
 team add lsr.green
 team modify lsr.green color green
+team add lsr.dark_green
+team modify lsr.dark_green color dark_green
 #team add lsr.spectators
 #team modify lsr.spectators color gray
 
