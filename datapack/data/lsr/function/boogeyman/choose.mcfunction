@@ -66,7 +66,7 @@ tellraw @a[tag=!lsr.boogeyman] { \
     ] \
 }
 
-scoreboard players enable @a[tag=lsr.operator] lsr.choose_boogeyman
+execute if entity @a[predicate=lsr:is_green_or_yellow,tag=!lsr.boogeyman] run scoreboard players enable @a[tag=lsr.operator] lsr.choose_boogeyman
 
 scoreboard players reset $count.green_and_yellow.max lsr.io
 execute as @a[predicate=lsr:is_green_or_yellow] run scoreboard players add $count.green_and_yellow.max lsr.io 1
