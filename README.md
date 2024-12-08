@@ -5,7 +5,7 @@
 ![GitHub License](https://img.shields.io/github/license/LluisJM/Life-Series?style=flat-square&labelColor=111111)
 ![GitHub Tag](https://img.shields.io/github/v/tag/LluisJM/Life-Series?include_prereleases&style=flat-square&labelColor=111111&logo=github)
 ![GitHub last commit](https://img.shields.io/badge/resource_pack-optional-yellow?style=flat-square&labelColor=111111)
-![Languages](https://img.shields.io/badge/languages-9-red?style=flat-square&labelColor=111111)
+![Languages](https://img.shields.io/badge/languages-8-red?style=flat-square&labelColor=111111)
 
 This is my custom version of the 3rd Life series and the Last Life series by Grian. This is NOT a one-to-one recreation, but rather a fusion of both series.
 
@@ -73,10 +73,9 @@ Operators can also use commands to manage the data pack. This is a simple list o
 
 ## Translation support
 
-There are a total of 9 languages available in LSR
+There are a total of 8 languages available in LSR
  - Catalan
  - Czech
- - Dutch
  - English
  - French
  - Spanish
