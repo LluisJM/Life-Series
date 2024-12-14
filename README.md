@@ -52,8 +52,6 @@ When a player joins, as shown in the image, a menu opens in chat that allows the
 
 ![Player Menu](screenshots/player_menu.png)
 
-If you are an operator, you have to press the "Are you an operator?" button to get the corresponding permissions.
-
 This data pack requires of an administrator to run the following commands to trigger different events. This commands can be instead accessed from the Main Menu, which can be opened using the command `/trigger lsr.menu`.
 
 ![Main Menu](screenshots/main_menu.png)
