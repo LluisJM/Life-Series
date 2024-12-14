@@ -10,3 +10,7 @@ execute if score $game_state lsr.io matches 0..1 run effect give @a[gamemode=sur
 execute if score $game_state lsr.io matches 0..1 run effect give @a[gamemode=survival] regeneration 10 9 true
 
 execute if score $game_state lsr.io matches 2 run function lsr:tick/game
+
+execute as @a[tag=!lsr.operator] store success score @s lsr.is_op run tellraw @s ""
+execute as @a[scores={lsr.is_op=1..}] run function lsr:util/check_operator_status
+scoreboard players reset @a[scores={lsr.is_op=1..}] lsr.is_op

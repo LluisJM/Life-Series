@@ -15,7 +15,3 @@ function lsr:menu/print_button {button_id:"play_game", button_text:"Play game", 
 function lsr:menu/print_button {button_id:"spectate_game", button_text:"Spectate game", command:"trigger lsr.spectate"}
 
 function lsr:menu/print_separator
-
-execute as @a store success score @s lsr.is_op run tellraw @s ""
-execute as @a[scores={lsr.is_op=1..}] run function lsr:util/check_operator_status
-scoreboard players reset @a[scores={lsr.is_op=1..}] lsr.is_op
