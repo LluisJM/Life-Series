@@ -22,6 +22,8 @@ scoreboard objectives add lsr.end_game trigger
 scoreboard objectives add lsr.death deathCount
 scoreboard objectives add lsr.kill playerKillCount
 
+scoreboard objectives add lsr.is_op dummy
+
 team add lsr.red
 team modify lsr.red color red
 team add lsr.yellow

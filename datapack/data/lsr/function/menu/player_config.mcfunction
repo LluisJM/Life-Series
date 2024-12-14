@@ -16,6 +16,6 @@ function lsr:menu/print_button {button_id:"spectate_game", button_text:"Spectate
 
 function lsr:menu/print_separator
 
-function lsr:menu/print_button {button_id:"operator_check", button_text:"Are you and operator?", command:"function lsr:util/check_operator_status"}
-
-function lsr:menu/print_separator
+execute as @a store success score @s lsr.is_op run tellraw @s ""
+execute as @a[scores={lsr.is_op=1..}] run function lsr:util/check_operator_status
+scoreboard players reset @a[scores={lsr.is_op=1..}] lsr.is_op
