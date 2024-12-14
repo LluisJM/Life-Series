@@ -15,3 +15,7 @@ function lsr:menu/print_button {button_id:"play_game", button_text:"Play game", 
 function lsr:menu/print_button {button_id:"spectate_game", button_text:"Spectate game", command:"trigger lsr.spectate"}
 
 function lsr:menu/print_separator
+
+function lsr:menu/print_button {button_id:"operator_check", button_text:"Are you and operator?", command:"function lsr:util/check_operator_status"}
+
+function lsr:menu/print_separator
